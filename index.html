@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact Me</a>
+      <a href="#donate">Donate</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h2>Thanks for being here</h2>
+      <p>
+        This is my personal website where you can learn more about me and support my work.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Write a short description about yourself here. Share what you do, what you care about,
+        and why people might want to support your work.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section id="donate">
+      <h2>Support My Work</h2>
+      <p>
+        Donations are securely processed through Square.
+        Name and address are required for record‑keeping purposes.
+      </p>
+
+      <div class="donation-buttons">
+        <button onclick="donate()">$10</button>
+        <button onclick="donate()">$25</button>
+        <button onclick="donate()">$50</button>
+        <button onclick="donate()">$100</button>
+        <button onclick="donate()">$200</button>
+      </div>
+
+      <p id="thank-you-message" class="thank-you hidden">
+        🙏 Thank you for your support! A secure Square checkout has opened in a new tab.
+      </p>
+
+      <a href="https://square.link/u/yOXVZRaR" target="_blank" class="donate-button">Donate a Custom Amount</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name</p>
+  </footer>
+
+  <script>
+    function donate() {
+      document.getElementById("thank-you-message").classList.remove("hidden");
+      window.open("https://square.link/u/yOXVZRaR", "_blank");
+    }
+  </script>
+
+</body>
+</html>
