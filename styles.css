@@ -115,8 +115,8 @@ footer {
   align-items: center;
   gap: 30px;
 }
-
-.about-photo {
+  
+.small-image {
   width: 75px;
   height: 75px;
   object-fit: cover;
