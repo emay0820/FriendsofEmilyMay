@@ -35,6 +35,14 @@ section {
   text-align: center;
 }
 
+.small-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
 form {
   display: flex;
   flex-direction: column;
