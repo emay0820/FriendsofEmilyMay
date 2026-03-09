@@ -117,8 +117,8 @@ footer {
 }
 
 .about-photo {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height:75px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -126,7 +126,7 @@ footer {
 
 .about-text {
   flex: 1;
-  min-width: 250px;
+  min-width: 20px;
 }
 
 .about-text h2 {
