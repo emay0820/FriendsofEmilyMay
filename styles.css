@@ -36,7 +36,7 @@ section {
 }
 
 .small-image {
-  width: 150px;
+  width: 300px;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
