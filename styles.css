@@ -32,7 +32,7 @@ section {
 }
 
 .hero {
-  text-align: left;
+  text-align: center;
 }
 
 .small-image {
@@ -119,11 +119,12 @@ footer {
 
 .about-container {
   display: flex;
-  align-items: left;
+  align-items: center;
   gap: 30px;
 }
 
 .about-text {
+  text-align: left;
   flex: 1;
   min-width: 200px;
 }
@@ -138,11 +139,15 @@ footer {
 
 .hero-container {
   display: flex;
-  align-items: left;
+  align-items: center;
   gap: 30px
 }
 
 .hero-text {
   flex: 1
   min-width: 200px
+ }
+
+.Left {
+  text-align: left
  }
