@@ -32,7 +32,7 @@ section {
 }
 
 .hero {
-  text-align: center;
+  text-align: left;
 }
 
 .small-image {
@@ -138,7 +138,7 @@ footer {
 
 .hero-container {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 30px
 }
 
