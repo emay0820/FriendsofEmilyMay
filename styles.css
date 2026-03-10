@@ -36,11 +36,12 @@ section {
 }
 
 .small-image {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 form {
@@ -48,8 +49,9 @@ form {
   flex-direction: column;
 }
 
-input, textarea {
-  margin-bottom: 0;
+input,
+textarea {
+  margin-bottom: 10px;
   padding: 10px;
   font-size: 1rem;
 }
@@ -78,6 +80,8 @@ button:hover {
   background: #0078ff;
   border-radius: 5px;
   padding: 10px 20px;
+  flex: 1;
+  min-width: 80px;
 }
 
 .donation-buttons button:hover {
@@ -110,44 +114,119 @@ button:hover {
   background: #218838;
 }
 
-footer {
-  text-align: center;
-
-  .about-section {
+.about-section {
   padding: 2rem;
 }
 
 .about-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
 }
 
 .about-text {
-  text-align: center;
   flex: 1;
-  min-width: 200px;
+  min-width: 280px;
 }
 
 .about-text h2 {
   margin-top: 0;
 }
+
+footer {
+  text-align: center;
   padding: 1rem;
   background: #222;
   color: #fff;
 }
 
-.hero-container {
-  display: flex;
-  align-items: center;
-  gap: 30px
+.Left {
+  text-align: left;
 }
 
-.hero-text {
-  flex: 1
-  min-width: 200px
- }
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
 
-.Left {
-  text-align: left
- }
+  section {
+    padding: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 0.9rem;
+  }
+
+  .small-image {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 1rem;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table td {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .about-text {
+    min-width: auto;
+  }
+
+  .donation-buttons {
+    flex-direction: column;
+  }
+
+  .donation-buttons button {
+    flex: 1;
+    width: 100%;
+  }
+
+  form input,
+  form textarea {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .small-image {
+    max-width: 200px;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 0.5rem;
+  }
+}
