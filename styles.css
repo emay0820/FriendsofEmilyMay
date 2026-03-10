@@ -124,7 +124,7 @@ footer {
 }
 
 .about-text {
-  text-align: left;
+  text-align: center;
   flex: 1;
   min-width: 200px;
 }
