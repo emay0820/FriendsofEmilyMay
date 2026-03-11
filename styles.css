@@ -249,3 +249,16 @@ footer {
     max-width: 300px;
   }
 }  
+
+.vote-message {
+  font-size: 1.5rem;
+  color: #1b4d2a;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .vote-message {
+    font-size: 1.2rem;
+  }
+}
