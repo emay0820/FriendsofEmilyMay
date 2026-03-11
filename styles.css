@@ -239,3 +239,11 @@ footer {
     height: auto;
   }
 }
+
+@media (min-width: 768px) {
+  .family-image {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+  }
+}
