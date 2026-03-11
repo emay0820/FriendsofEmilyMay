@@ -10,7 +10,7 @@ header {
   color: #fff;
   padding: 1rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 nav a {
@@ -167,12 +167,12 @@ footer {
   }
 
   header h1 {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
   }
 
   nav a {
     margin: 0 5px;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
   }
 
   .small-image {
