@@ -144,6 +144,15 @@ footer {
   text-align: left;
 }
 
+table {
+  width: 100%;
+}
+
+table td {
+  width: 50%;
+  vertical-align: top;
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   main {
