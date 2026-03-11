@@ -235,7 +235,7 @@ footer {
 @media (min-width: 768px) {
   .small-image {
     width: 100%;
-    max-width: 200px; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed */
     height: auto;
   }
 }
