@@ -31,6 +31,15 @@ section {
   border-radius: 8px;
 }
 
+table {
+  width: 100%;
+}
+
+table td {
+  width: 50%;
+  vertical-align: top;
+}
+
 .hero {
   text-align: center;
 }
@@ -144,14 +153,6 @@ footer {
   text-align: left;
 }
 
-table {
-  width: 100%;
-}
-
-table td {
-  width: 50%;
-  vertical-align: top;
-}
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
@@ -238,3 +239,13 @@ table td {
     padding: 0.5rem;
   }
 }
+
+@media (min-width: 768px) {
+  table td {
+    width: 50%
+  }
+
+.small-image {
+    max-width: 300px;
+  }
+}  
