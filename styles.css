@@ -288,14 +288,6 @@ footer {
   margin: 1rem 0;
 }
 
-header h1 {
-    font-size: 3rem;
-  }
-
-header {
-    font-size: 3rem;
-  }
-
 @media (max-width: 768px) {
   .vote-message {
     font-size: 1.2rem;
