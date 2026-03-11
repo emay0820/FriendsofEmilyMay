@@ -145,8 +145,8 @@ footer {
   text-align: left;
 }
 
-/* Mobile responsive styles */
-@media (max-width: 768px) {
+/* Mobile and tablet responsive styles */
+@media (max-width: 1024px) {
   main {
     padding: 1rem;
   }
