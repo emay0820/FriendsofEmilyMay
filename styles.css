@@ -233,15 +233,7 @@ footer {
 
 /* iPad view (768px and above) */
 @media (min-width: 768px) {
-  .prof-sitting-image {
-    width: 100%;
-    max-width: 200px; /* Adjust as needed */
-    height: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .family-image {
+  .small-image {
     width: 100%;
     max-width: 200px; /* Adjust as needed */
     height: auto;
