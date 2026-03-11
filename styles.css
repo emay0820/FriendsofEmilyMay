@@ -240,11 +240,12 @@ footer {
 
 @media (max-width: 480px) {
   header {
-    font-size: 1.0rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
   }
 
   header h1 {
-    font-size: 1.0rem;
+    font-size: 0.9rem;
   }
 
   nav a {
