@@ -70,6 +70,20 @@ table td {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
+.banner {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  font-size: 28px;
+}
+
+
 form {
   display: flex;
   flex-direction: column;
