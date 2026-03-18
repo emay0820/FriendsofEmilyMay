@@ -71,10 +71,10 @@ table td {
 }
 
 .banner {
-  background-color: black;
+  background-color: white;
   padding: 20px 0;
   text-align: center;
-  color: white;
+  color: green;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 }
