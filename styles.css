@@ -7,7 +7,7 @@ body {
 
 header {
   background: #1b4d2a;
-  color: #fff;
+  color: green;
   padding: 0.5rem 1rem;
   text-align: center;
   font-size: 3rem;
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: green;
   margin: 0 10px;
   text-decoration: none;
   font-size: 1rem;
@@ -84,7 +84,6 @@ table td {
   color: white;
   font-size: 28px;
 }
-
 
 form {
   display: flex;
@@ -186,7 +185,6 @@ footer {
   text-align: left;
 }
 
-
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   main {
@@ -282,9 +280,9 @@ footer {
   }
 }
 
-  .vote-message {
-    font-size: 1.1rem;
-  }
+.vote-message {
+  font-size: 1.1rem;
+}
 }
 
 @media (min-width: 768px) {
